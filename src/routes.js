@@ -1,15 +1,17 @@
-// import Home from "../components/Home.vue";
-// import Shop from "../components/Shop.vue";
-// import Blog from "../components/Blog.vue";
-import App from "./App.vue";
+import Blog from "./components/blog.vue";
+import Shop from "./components/shop.vue";
+import Author from "./components/author.vue";
 import HomePage from "./components/HomePage.vue";
 import Dashboard from "@/components/dashboard.vue";
+import ContactPage from "./components/Contact-page.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   { path: "/", component: HomePage },
-  { path: "/shop", component: App },
-  { path: "/blog", component: App },
+  { path: "/shop", component: Shop },
+  { path: "/blog", component: Blog },
+  { path: "/author", component: Author },
+  { path: "/contact", component: ContactPage },
   { path: "/dashboard", component: Dashboard },
 ];
 

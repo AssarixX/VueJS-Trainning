@@ -1,10 +1,10 @@
 <script setup>
 import Button from "./Button.vue";
 import Boat from "./icons/boat.vue";
-import Percent from "./icons/percent.vue";
-import Saving from "./icons/saving.vue";
-import SearchIcon from "./icons/searchIcon.vue";
 import NavItems from "./NavItems.vue";
+import Saving from "./icons/saving.vue";
+import Percent from "./icons/percent.vue";
+import SearchIcon from "./icons/searchIcon.vue"; 
 </script>
 <template class="h-[700px] z-0">
   <div

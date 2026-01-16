@@ -18,19 +18,22 @@
           >10</span
         >
       </div>
-      <div
-        class="flex items-center gap-1 rounded hover:bg-red-100 p-2 cursor-pointer"
-      >
-        <PersonIcon class="size-8 bg-zinc-200 p-1.5 rounded-full" />
-        <p class="text-sm">John Doe</p>
-        <ArrowDown class="size-6" />
+      <div>
+        <RouterLink
+          to="/"
+          class="flex items-center gap-1 rounded hover:bg-red-100 p-2 cursor-pointer"
+        >
+          <PersonIcon class="size-8 bg-zinc-200 p-1.5 rounded-full" />
+          <p class="text-sm">John Doe</p>
+          <ArrowDown class="size-6"
+        /></RouterLink>
       </div>
     </div>
   </div>
 </template>
 <script setup>
 import ArrowDown from "./icons/ArrowDown.vue";
-import NotificationIcon from "./icons/notificationIcon.vue";
-import PersonIcon from "./icons/personIcon.vue";
 import SearchIcon from "./icons/searchIcon.vue";
+import PersonIcon from "./icons/personIcon.vue";
+import NotificationIcon from "./icons/notificationIcon.vue";
 </script>

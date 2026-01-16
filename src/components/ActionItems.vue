@@ -16,16 +16,16 @@ const props = defineProps({
   <nav>
     <ul class="flex gap-2.5 justify-center items-center m-4">
       <li
-        class="relative flex cursor-pointer p-0.5 hover:bg-white/60 hover:rounded-sm group"
+        class="relative flex cursor-pointer p-0.5 hover:bg-red-200/60 hover:rounded-sm group"
       >
-        <RouterLink to=""
+        <RouterLink to="/"
           ><SearchIcon class="group-hover:text-red-600 size-6"
         /></RouterLink>
       </li>
       <li
-        class="relative flex cursor-pointer p-0.5 hover:bg-white/60 hover:rounded-sm group"
+        class="relative flex cursor-pointer p-0.5 hover:bg-red-200/60 hover:rounded-sm group"
       >
-        <RouterLink to="">
+        <RouterLink to="/blog">
           <FavoriteIcon class="group-hover:text-red-600 size-6" />
           <span
             class="absolute top-[-5px] right-[-4px] text-white text-center bg-red-500 rounded-full w-4 h-4 flex items-center justify-center text-sm"
@@ -34,9 +34,9 @@ const props = defineProps({
         >
       </li>
       <li
-        class="relative flex cursor-pointer p-0.5 hover:bg-white/60 hover:rounded-sm group"
+        class="relative flex cursor-pointer p-0.5 hover:bg-red-200/60 hover:rounded-sm group"
       >
-        <RouterLink to="">
+        <RouterLink to="/shop">
           <ShoppingBagIcon class="group-hover:text-red-600 size-6" />
           <span
             class="absolute top-[-5px] right-[-4px] text-white text-center bg-red-500 rounded-full w-4 h-4 flex items-center justify-center text-sm"
@@ -45,7 +45,7 @@ const props = defineProps({
         >
       </li>
       <li
-        class="relative flex cursor-pointer p-0.5 hover:bg-white/60 hover:rounded-sm group"
+        class="relative flex cursor-pointer p-0.5 hover:bg-red-200/60 hover:rounded-sm group"
       >
         <RouterLink to="/dashboard"
           ><PersonIcon class="group-hover:text-red-600 size-6"

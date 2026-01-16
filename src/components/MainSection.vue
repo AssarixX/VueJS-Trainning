@@ -9,7 +9,7 @@ import merveillesImage from "./../assets/images/merveilles.jpg";
 </script>
 
 <template>
-  <div class="bg-gray-200">
+  <div class="bg-gray-200 pb-16">
     <h1
       class="mb-8 text-center font-bold text-2xl py-4 relative before:absolute before:content-[''] before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:w-20 before:h-0.5 before:bg-red-500"
     >
@@ -57,5 +57,6 @@ import merveillesImage from "./../assets/images/merveilles.jpg";
         ]"
       />
     </div>
+    <div></div>
   </div>
 </template>

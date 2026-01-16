@@ -124,9 +124,7 @@ const chartOptions = {
 };
 </script>
 <template>
-  <div
-    class="ml-4 mt-4 p-4 h-4/5 w-3/5 absolute left-1/5 rounded-lg bg-gray-100 shadow-lg/30"
-  >
+  <div class="p-4 rounded-lg bg-gray-200 shadow-lg/30 h-80">
     <Line :data="chartData" :options="chartOptions" />
   </div>
 </template>

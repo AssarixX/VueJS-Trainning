@@ -6,8 +6,8 @@ import LogoutIcon from "./icons/logoutIcon.vue";
 import SettingIcon from "./icons/settingIcon.vue";
 import FavoriteIcon from "./icons/favoriteIcon.vue";
 import AudioBookIcon from "./icons/audioBookIcon.vue";
-import BookBaseHomeIcon from "./icons/BookBaseHomeIcon.vue";
 import DownloadFileIcon from "./icons/downloadFileIcon.vue";
+import BookBaseHomeIcon from "./icons/BookBaseHomeIcon.vue";
 import ContactSupportIcon from "./icons/contactSupportIcon.vue";
 </script>
 <template>
